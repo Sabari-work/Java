@@ -11,5 +11,5 @@ class functions{
 
     void dummy(){
         System.out.println("IAM A DUMMY");
-    }
+    } 
 }
