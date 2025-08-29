@@ -1,7 +1,7 @@
 import java.util.*;
 class classobject{
     String name,dept;
-    int age,mobile;
+    int age,mobile=0;
     
     public static void main(String args[]){
         classobject stud1= new classobject();
