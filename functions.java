@@ -1,10 +1,15 @@
 class functions{
     public static void main(String args[]){
-        jun b= new jun();
-        b.a = 10;
-        System.out.print(b.a);
+        functions b= new functions();
+        b.greetings();
     }
-}
-class jun{
-    int a;
+
+    void greetings(){
+        System.out.println("Welcome");
+        dummy();
+    }  // function syntax : void name()
+
+    void dummy(){
+        System.out.println("IAM A DUMMY");
+    }
 }
